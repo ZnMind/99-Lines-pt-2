@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-inline: auto;
+    border: 2px solid darkgreen;
+    padding: 0.5em;
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+    background-color: lightgreen;
+    box-shadow: 10px 12px 0.5rem gray;
+}
+
+.friend {
+    padding: 1em;
+    border-radius: 30px;
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+    box-shadow: 10px 12px 0.5rem gray;
+}
+
+.friend > h3 {
+    text-transform: uppercase;
+}
+
+#button {
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+    box-shadow: 5px 6px 0.5rem gray;
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+    margin-inline: auto;
+    border-radius: 10px;
+}
